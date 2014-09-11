@@ -1,0 +1,26 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{rpihomework}[2014/09/02]
+
+\usepackage{fancyhdr}
+\usepackage{color,array,graphics}
+\usepackage{enumerate}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+\setlength{\textheight}{8.8in}
+\setlength{\textwidth}{6.7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\voffset0.0in
+
+\pagestyle{fancy}
+\def\student#1{\fancyhead[L]{#1}}
+\def\rin#1{\fancyhead[C]{#1}}
+\def\hwdate#1{\fancyhead[R]{#1}}
+\def\course#1{\fancyfoot[L]{#1}}
+
+\def\Ans{\emph{Answer}: }
+
+\endinput
