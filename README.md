@@ -9,7 +9,7 @@ This is my custom LaTeX template for the following courses in RPI:
 
 Please refer to the document of your own distribution of LaTeX.
 
-I personally use MiKTeX, so I have set an environment variable `TEXINPUT` to my local repo.
+I personally use (MiKTeX)[http://docs.miktex.org/manual/localadditions.html], so I have set an environment variable `TEXINPUT` to my local repo.
 
 ##Contribution
 
